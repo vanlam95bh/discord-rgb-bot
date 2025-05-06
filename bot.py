@@ -3,9 +3,11 @@ import asyncio
 import os
 from discord.ext import commands
 
+# Tạo intents và bật các intents cần thiết
 intents = discord.Intents.default()
 intents.guilds = True
 intents.members = True
+intents.message_content = True  # Bật Message Content Intent nếu bạn cần đọc nội dung tin nhắn
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
