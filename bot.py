@@ -9,8 +9,8 @@ intents.members = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-ROLE_ID = int(os.getenv("ROLE_ID"))
-GUILD_ID = int(os.getenv("GUILD_ID"))
+ROLE_ID = int(os.getenv("821365508142137384"))
+GUILD_ID = int(os.getenv("820362493393371156"))
 DELAY = 2
 
 @bot.event
@@ -32,4 +32,4 @@ async def rainbow_role():
         b = (b + 60) % 256
         await asyncio.sleep(DELAY)
 
-bot.run(os.getenv("DISCORD_TOKEN"))
+bot.run(os.getenv("MTM2OTM2MTQ4MjkyMzM4MDg4Nw.Gs2qYc.PC5MYazXX1LCcT8qrowbKMuVkDR66c-_cJ2KkQ"))
