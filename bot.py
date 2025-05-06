@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 ROLE_ID = int(os.getenv("ROLE_ID"))
 GUILD_ID = int(os.getenv("GUILD_ID"))
-DELAY = 1
+DELAY = 5
 
 @bot.event
 async def on_ready():
