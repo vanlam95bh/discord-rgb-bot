@@ -9,8 +9,8 @@ intents.members = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-ROLE_ID = int(os.getenv("821365508142137384"))
-GUILD_ID = int(os.getenv("820362493393371156"))
+ROLE_ID = int(os.getenv("ROLE_ID"))
+GUILD_ID = int(os.getenv("GUILD_ID"))
 DELAY = 2
 
 @bot.event
