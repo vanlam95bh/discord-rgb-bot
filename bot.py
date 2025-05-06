@@ -32,4 +32,4 @@ async def rainbow_role():
         b = (b + 60) % 256
         await asyncio.sleep(DELAY)
 
-bot.run(os.getenv("MTM2OTM2MTQ4MjkyMzM4MDg4Nw.Gs2qYc.PC5MYazXX1LCcT8qrowbKMuVkDR66c-_cJ2KkQ"))
+bot.run(os.getenv("DISCORD_TOKEN"))
